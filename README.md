@@ -1,0 +1,1 @@
+O nome desse projeto se chama Echo! Sua finalidade é conectar você a uma pessoa em que você quer acionar o serviço de suporte. Sua solicitação nunca foi tão fácil e rápido
