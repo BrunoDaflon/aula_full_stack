@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Chamados</title>
+</head>
+<body>
+  <h1>Chamados</h1>
+  <p id="mensagem" aria-live="polite"></p>
+
+  <form id="formulario">
+    <label>Título <input id="titulo" required></label><br>
+    <label>Descrição <textarea id="descricao" required></textarea></label><br>
+    <label>Prioridade
+      <select id="prioridade" required>
+        <option value="baixa">Baixa</option>
+        <option value="media">Média</option>
+        <option value="alta">Alta</option>
+      </select>
+    </label><br>
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <h2>Lista</h2>
+  <ul id="lista"></ul>
+  <script src="app.js"></script>
+</body>
+</html>
